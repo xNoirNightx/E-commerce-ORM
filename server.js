@@ -10,6 +10,18 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(routes);
 
+
+// for fun
+console.log(
+  (`
+  ▄▄▄ . ▄▄·       • ▌ ▄ ·.     ·▄▄▄▄   ▄▄▄· ▄▄▄▄▄ ▄▄▄· ▄▄▄▄·  ▄▄▄· .▄▄ · ▄▄▄ .
+  ▀▄.▀·▐█ ▌▪▪     ·██ ▐███▪    ██▪ ██ ▐█ ▀█ •██  ▐█ ▀█ ▐█ ▀█▪▐█ ▀█ ▐█ ▀. ▀▄.▀·
+  ▐▀▀▪▄██ ▄▄ ▄█▀▄ ▐█ ▌▐▌▐█·    ▐█· ▐█▌▄█▀▀█  ▐█.▪▄█▀▀█ ▐█▀▀█▄▄█▀▀█ ▄▀▀▀█▄▐▀▀▪▄
+  ▐█▄▄▌▐███▌▐█▌.▐▌██ ██▌▐█▌    ██. ██ ▐█ ▪▐▌ ▐█▌·▐█ ▪▐▌██▄▪▐█▐█ ▪▐▌▐█▄▪▐█▐█▄▄▌
+   ▀▀▀ ·▀▀▀  ▀█▄▀▪▀▀  █▪▀▀▀    ▀▀▀▀▀•  ▀  ▀  ▀▀▀  ▀  ▀ ·▀▀▀▀  ▀  ▀  ▀▀▀▀  ▀▀▀ 
+`)
+);
+
 // sync sequelize models to the database, then turn on the server
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
