@@ -43,7 +43,7 @@
  ## Usage
  - To use the E-Com DataBase, run the following command inside the "Root" folder:
  - In terminal enter NPM RUN SEED  , Followed by NODE SERVER.JS
- - Follow [Video Demo](https://www.dropbox.com/h?preview=Challenge13.mp4&role=personal) if you need further assistance.
+ - Follow [Video Demo](https://www.dropbox.com/scl/fi/wysz3xtee6ufmbjdsmi2z/Challenge13.mp4?rlkey=rkrrhkznonmzg7tv4rcwccai8&dl=0) if you need further assistance.
  
 
 ## Mock-Up
